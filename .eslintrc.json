@@ -1,0 +1,11 @@
+{
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "ignoredNodes": ["TemplateLiteral","comments"]
+    }],
+    "react/display-name": "off"
+  }
+  // add other ESLint configurations here
+}
